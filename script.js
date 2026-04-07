@@ -2,7 +2,7 @@
 let audio;
 
 function playSound(name) {
-    audio = new Audio("sounds/" + name + ".mp3");
+    audio = new Audio("sounds/" + name);
     audio.play();
 }
 
